@@ -59,8 +59,11 @@ const PROJECTS = [
     ],
     shots: [
       ["security-1.png", "Login and dashboard"],
-      ["security-2.png", "Attendance screen"],
-      ["security-3.png", "Shop floor survey"],
+      ["security-2.png", "Main Dashboard"],
+      ["security-3.png", "Attendance screen"],
+      ["security-4.png", "Absent Late report"],
+      ["security-5.png", "Daily report"],
+      ["security-6.png", "Guard Attendance History"],
     ],
   },
   {
@@ -85,9 +88,11 @@ const PROJECTS = [
       "Vendor tracking and procurement dashboard",
     ],
     shots: [
-      ["inventory-1.png", "Stock dashboard"],
-      ["inventory-2.png", "Purchase request"],
+      ["inventory-1.png", "Stock Analysis dashboard"],
       ["inventory-3.png", "Approval screen"],
+      ["inventory-4.png", "Purchase Record"],
+      ["inventory-5.png", "Raw Material Budget Allocation"],
+
     ],
   },
   {
@@ -113,6 +118,8 @@ const PROJECTS = [
     shots: [
       ["hr-1.png", "Recruitment tracker"],
       ["hr-2.png", "Attendance view"],
+      ["hr-4.png", "Job Applications"],
+      ["hr-3.png", "Post Jobs"],
     ],
   },
   {
@@ -138,6 +145,7 @@ const PROJECTS = [
     ],
     shots: [
       ["quality-1.png", "Inspection form"],
+      ["quality-2.png", "Inspection Checklist Tracker"],
       ["maintenance-1.png", "Maintenance tracker"],
     ],
   },

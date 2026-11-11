@@ -237,9 +237,12 @@ function Contact() {
 }
 
 /* ================= DETAIL (full page) ================= */
+const BASE_URL = import.meta.env.BASE_URL + "screenshots/";
+
 function Shot({ file, caption, onOpen }) {
   const [missing, setMissing] = useState(false);
-  const url = import.meta.env.BASE_URL + "screenshots/" + file;
+  const url = BASE_URL + file;
+
   return (
     <figure className="shot m-0">
       {missing ? (
@@ -249,11 +252,11 @@ function Shot({ file, caption, onOpen }) {
           type="button"
           className="shot-btn"
           onClick={() => onOpen({ url, caption })}
-          aria-label={"Enlarge: " + caption}
         >
           <img src={url} alt={caption} onError={() => setMissing(true)} />
         </button>
       )}
+
       <figcaption>{caption}</figcaption>
     </figure>
   );
