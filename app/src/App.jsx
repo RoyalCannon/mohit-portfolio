@@ -237,7 +237,7 @@ function Contact() {
 }
 
 /* ================= DETAIL (full page) ================= */
-const BASE_URL = import.meta.env.BASE_URL + "screenshots/";
+const BASE_URL = "/mohit-portfolio/screenshots/";
 
 function Shot({ file, caption, onOpen }) {
   const [missing, setMissing] = useState(false);
